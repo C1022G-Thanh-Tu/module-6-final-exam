@@ -1,0 +1,23 @@
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  font-size: 1.2rem;
+  gap: 5px;
+  margin-top: 20px;
+}
+.input_field {
+  height: 35px;
+  padding: 0 0 0 16px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid black;
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.input_field:focus {
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 0px 2px #242424;
+  background-color: transparent;
+}
